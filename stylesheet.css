@@ -47,6 +47,8 @@ https://source.typekit.com/source-han-serif/jp/
 
 
 /* 全体に適用する */
+header,
+#About p,
 section,
 article p,
 article .menu {
