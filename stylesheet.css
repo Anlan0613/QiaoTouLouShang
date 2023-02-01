@@ -24,7 +24,7 @@ http://ipafont.ipa.go.jp/
   src: url('QTLS.woff') format('woff');
 }
 
-p .ww{
+ww{
   font-family: genkai;
 }
 
@@ -47,12 +47,22 @@ https://source.typekit.com/source-han-serif/jp/
 
 
 /* 全体に適用する */
-* {
+section,
+article p,
+article .menu {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-weight: normal;
     font-family: 'Noto Serif JP', serif;
+}
+
+article ww {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-family: 'genkai', serif;
 }
 
 /* 基本設定 */
@@ -140,6 +150,7 @@ header h1 span:nth-of-type(4) {
 /* 文字揃え */
 #About p,
 section,
+ww,
 article {
     text-align: justify;
     word-break: break-all;
@@ -233,6 +244,7 @@ article h1 {
 
 /* 段落 */
 article p,
+article ww,
 article .menu {
     margin: 1em auto 1.5em;
 }
