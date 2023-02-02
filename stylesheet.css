@@ -42,8 +42,7 @@ header,
 #About p,
 section,
 article p,
-article menu,
-article menu li{
+article menu{
     font-family: 'Noto Serif JP', serif;
 }
 
@@ -240,6 +239,7 @@ article .menu {
 /* メニュー */
 article .menu {
     text-align: center;
+    font-family: 'Noto Serif JP',
 }
 
 article .menu li {
