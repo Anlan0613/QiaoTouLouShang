@@ -47,23 +47,23 @@ https://source.typekit.com/source-han-serif/jp/
 
 
 /* 全体に適用する */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
 header,
+#AboutToggle,
 #About p,
 section,
 article p,
 article .menu {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: normal;
     font-family: 'Noto Serif JP', serif;
 }
 
 article ww {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-weight: normal;
     font-family: 'genkai', serif;
 }
 
