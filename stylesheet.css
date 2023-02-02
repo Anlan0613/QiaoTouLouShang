@@ -42,7 +42,8 @@ header,
 #About p,
 section,
 article p,
-article menu {
+article menu,
+article menu li{
     font-family: 'Noto Serif JP', serif;
 }
 
