@@ -5,27 +5,12 @@
 
 /* ウェブフォントの読み込み */
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap');
-
-@font-face {
-    font-family: 'XANO明朝';
-    font-display: swap;
-    src: url('https://cdn.leafscape.be/XANO-mincho/XANO-mincho_web.woff2') format("woff2");
-}
-
-/*-------------------------------------------------
-このフォントはIPAフォントライセンスv1.0の下で提供されています。
-http://ipafont.ipa.go.jp/ipa_font_license_v1.html
-オリジナルのフォントは以下から取得できます。
-http://ipafont.ipa.go.jp/
--------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 @font-face {
   font-family: 'genkai';
+  font-display: swap;
   src: url('QTLS.woff') format('woff');
-}
-
-ww{
-  font-family: genkai;
 }
 
 /*-------------------------------------------------
@@ -44,8 +29,6 @@ https://www.flopdesign.com/
 https://source.typekit.com/source-han-serif/jp/
 -------------------------------------------------*/
 
-
-
 /* 全体に適用する */
 * {
     margin: 0;
@@ -59,11 +42,15 @@ header,
 #About p,
 section,
 article p,
-article .menu {
+article menu {
     font-family: 'Noto Serif JP', serif;
 }
 
 article ww {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+article rj {
     font-family: 'genkai', serif;
 }
 
@@ -117,7 +104,6 @@ header h1 {
 }
 
 header h1 span {
-    font-family: 'Noto Serif JP';
     color: #fff;
 }
 
@@ -177,7 +163,6 @@ section {
 section h2 {
     margin: 0.5em auto 1em;
     letter-spacing: 0.3em;
-    font-family: 'Noto Serif JP';
     font-size: 1.3em;
 }
 
