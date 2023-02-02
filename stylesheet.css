@@ -34,23 +34,15 @@ https://source.typekit.com/source-han-serif/jp/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Noto Serif JP', serif;
     font-weight: normal;
 }
 
-header,
-#AboutToggle,
-#About p,
-section,
-article p,
-article menu{
-    font-family: 'Noto Serif JP', serif;
-}
-
-article ww {
+article .ww {
     font-family: 'Noto Sans JP', sans-serif;
 }
 
-article rj {
+article .rj {
     font-family: 'genkai', serif;
 }
 
